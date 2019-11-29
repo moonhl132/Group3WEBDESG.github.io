@@ -1,0 +1,162 @@
+
+
+body {
+	background: rgb(105, 102, 102);
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 20px;
+	color: #222;
+     }
+
+a {
+ 	text-decoration: none;
+	color: #99AECD;
+  }
+
+a:hover {
+	text-decoration: underline;
+	color: #4F5D7F;
+       }
+
+
+#wrap {
+	margin: auto;
+	width: 1000px;
+	background: rgb(63, 63, 63);
+	border: 2px solid #000;
+}
+
+#firstheader { /* for input link at the very top of the page*/
+	text-align: left;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	color: #aaa;
+	background: rgb(54, 54, 54);
+	padding-left: 10px;
+}
+	#firstheader a { color: #aaa; }
+	#firstheader a:hover { color: #111; }
+
+}
+
+#header {
+height: 160px;
+background: #554d42 url(images/header.jpg) no-repeat;
+margin: 0;
+padding: 0;
+}
+#header p { /* put your website title here in the header */
+font-size: 50px;
+padding: 17px 0 0 10px;
+color: rgb(255, 255, 255);
+text-align: center;
+line-height: 100px;
+margin: 0;
+padding: 0;
+}
+
+/*navigation bar section*/
+#menu { /* configuration for the background of nav bar*/
+height: 50px;
+line-height: 50px;
+background: #000;
+margin: 0;
+padding: 0;
+}
+#menu ul { /* configuration for nav bar padding */
+list-style-type: none;
+padding-left: 30px;
+}
+#menu ul li { /*configuration so the menu list goes to the left*/
+display: block;
+float: left;
+}
+#menu ul li a { /* styling for the nav bar list*/
+padding: 0 20px 0 0;
+text-decoration: none;
+font-weight: 600;
+font-size: 15px;
+color: #fff;
+}
+#menu ul li a:hover { /* so that the link have a hover effect*/
+color: #aaa;
+text-decoration: none;
+}
+
+/*content section*/
+#content { /* pading for the content*/
+padding: 0 10px 20px 0;
+}
+
+.poster { /* padding and the float config for the content*/
+	float: left;
+	width: 800px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-right: 2px solid black;
+	padding-bottom: 50px;
+	
+	}
+.poster h1 { /* h1 for the movie description */
+	color: white;
+}
+.poster p { /* p for the movie description*/
+	color: white;
+}
+
+/* sidebar section */
+.right { /* size and padding for side bar */
+float: right;
+width: 160px;
+padding-top: 10px;
+}
+.right h2 { /* h2 config for side bar */
+margin: 10px 0 0 0;
+padding-left: 10px;
+height: 24px;
+line-height: 24px;
+color: #7988AF;
+font-size: 15px;
+}
+.right ul { /* to style type of ul list */
+padding: 10px 0 15px 30px;
+list-style-type: square;
+color: #99AECD;
+}
+.right ul li a { /* text weight for the side bar*/
+text-decoration: none;
+font-weight: 60	0;
+}
+.right ul li a:hover { /* hiver effect for the links*/
+
+}
+
+/* report dead links section */
+.report { /* configuration for the overall padding, width, border for the interface */
+	float: left;
+	width: 700px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 90px;
+	border-right: 2px solid black;
+	color:white;
+	}
+	.report h1 { /* title text of the page*/
+	margin: 10px 0 0 0;
+	padding-left: 10px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center
+	}
+
+#footer { /* to give information about when  the website was established */
+text-align: center;
+font-size: 11px;
+color: #aaa;
+background: rgb(54, 54, 54);
+}
+#footer a { color: #aaa; }
+#footer a:hover { color: #111; }
