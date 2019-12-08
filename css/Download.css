@@ -267,3 +267,36 @@
     margin-left: none;
     }
 }
+@media screen and (min-width: 1440px){/* this for s10+ ( 1440x3040 px)*/
+.window {
+    width: 80%;
+		margin-left: 100px;
+    }
+
+#left{
+    margin-left: 100px;
+		margin-top: 80px;
+		font-size: 30px;
+}
+#caption h1{
+	font-size: 50px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+}
+#mid{
+    margin-left: none;
+		margin-top: 80px;
+		font-size: 30px;
+
+    }
+#right{
+    margin-left: none;
+		margin-top: 80px;
+		font-size: 30px;
+
+    }
+
+}
+#popup{
+	padding-top: 1100px;
+}
