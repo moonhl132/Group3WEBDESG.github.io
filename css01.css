@@ -167,3 +167,67 @@ background: rgb(54, 54, 54);
 #footer a { color: #aaa; }
 #footer a:hover { color: #111; }
 
+@media screen and (min-width: 1024px){ /*For Ipad Pro (1024x1366*/
+	body{
+		font-size: 25px;
+		}
+	#firstheader{
+		font-size: 22x;
+		}
+	#header p{
+		font-size: 80px;
+		line-height: 128px;
+		}
+	#menu{
+		height: 65px;
+		line-height: 65px;
+		}
+	#menu ul li a{
+		font-size: 25px;
+		}
+	.poster{
+		width: 75%;
+		}
+	.poster h1{
+		font-size: 40px;
+		}
+	.poster p{
+		font-size: 25px;
+		}
+		.right { /* size and padding for side bar */
+		font-size: 20px
+		float: right;
+		}
+		.right h2 { /* h2 config for side bar */
+		margin: 10px 0 0 0;
+		padding-left: 10px;
+		height: 24px;
+		line-height: 30px;
+		color: #7988AF;
+		font-size: 15px;
+		}
+		.right ul { /* to style type of ul list */
+		padding: 10px 0 15px 30px;
+		list-style-type: square;
+		color: #99AECD;
+		}
+		.right ul li a { /* text weight for the side bar*/
+		text-decoration: none;
+		font-weight: 60	0;
+		}
+		.right ul li a:hover { /* hiver effect for the links*/
+
+		}
+		#footer { /* to give information about when  the website was established */
+		text-align: center;
+		font-size: 20px;
+		color: #aaa;
+		background: rgb(54, 54, 54);
+		}
+		#footer a { color: #aaa; }
+		#footer a:hover { color: #111; }
+
+
+
+	}
+
