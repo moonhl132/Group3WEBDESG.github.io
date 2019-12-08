@@ -267,27 +267,44 @@ body{
 
 
 	}
-	@media screen and (min-width: 1440px){ /*For s10+ 1440x3040px*/
+@media screen and (min-width: 1440px){ /*For s10+ 1440x3040px*/
 	body{
 	    font-size: 18px;
 	    }
+	#content{
+		height: 100%;
+	}
 	#firstheader{
-	    font-size: 15px;
+		height :50px;
+		padding-top: 30px;
+	    font-size: 30px;
 	    }
 	#header p{
-	    font-size: 70px;
-	    line-height: 120px;
+			padding-top: 100px;
+	    font-size: 100px;
+			height: 200px;
 	    }
 	#menu{
-	    height: 60px;
+	    height: 90px;
 	    line-height: 60px;
 	    }
+	#menu ul{
+		padding-top: 20px;
+	}
 	#menu ul li a{
-	    font-size: 20px;
+	    font-size: 30px;
+	    padding-left: 50px;
 	    }
 	.poster{
-	    width: 73%;
+	width: 73%;
+	height: 80%;
+	padding-top: 100px;
 	    }
+	.poster a img{
+		width: 80%;
+		padding-left: 180px;
+		height: 700px;
+	}
 	.poster h1{
 	    font-size: 30px;
 	    }
@@ -295,6 +312,23 @@ body{
 	    font-size: 18px;
 	    }
 	.right h2{
-	    font-size: 20px;
+	    font-size: 30px;
 	    }
+	.right{
+		padding-right: 150px;
+		padding-top: 40px;
+	}
+	.right h2{
+		padding-top: 20px;
+		font-size: 50px;
+		width: 400px;
+	}
+	.right li {
+		padding-top: 30px;
+		font-size: 30px;
+		width: 350px;
+	}
+#footer{
+	height: 100%;
+	font-size: 30px;
 }
