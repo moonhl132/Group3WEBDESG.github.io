@@ -267,4 +267,34 @@ body{
 
 
 	}
-
+	@media screen and (min-width: 1440px){ /*For s10+ 1440x3040px*/
+	body{
+	    font-size: 18px;
+	    }
+	#firstheader{
+	    font-size: 15px;
+	    }
+	#header p{
+	    font-size: 70px;
+	    line-height: 120px;
+	    }
+	#menu{
+	    height: 60px;
+	    line-height: 60px;
+	    }
+	#menu ul li a{
+	    font-size: 20px;
+	    }
+	.poster{
+	    width: 73%;
+	    }
+	.poster h1{
+	    font-size: 30px;
+	    }
+	.poster p{
+	    font-size: 18px;
+	    }
+	.right h2{
+	    font-size: 20px;
+	    }
+}
